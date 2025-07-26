@@ -1,0 +1,13 @@
+resource "proxmox_lxc" "{{ container.name }}" {
+  vmid = {{ container.vmid }}
+  hostname = "{{ container.name }}"
+  cores = {{ container.cores }}
+  memory = {{ container.memory }}
+  
+
+  network {
+    type = "veth"
+    bridge = "{{ container.network.bridge }}"
+    ip = "{{ container.network.ip }}"
+  }
+}

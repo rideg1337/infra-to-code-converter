@@ -1,0 +1,8 @@
+- name: basic playbook
+  hosts: lxc_containers
+  become: yes
+  tasks:
+    - name: Ensure htop is installed
+      apt:
+        name: htop
+        state: present
