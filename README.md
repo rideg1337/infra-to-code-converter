@@ -24,9 +24,11 @@ python3 -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 .venv\Scripts\activate     # Windows
 
-# 2. Install dependencies
+# 2. Configure the settings.yaml config/settings.yaml
+
+# 3. Install dependencies
 pip install -r requirements.txt
 
-# 3. Run the converter
+# 4. Run the converter
 python main.py
 ```
