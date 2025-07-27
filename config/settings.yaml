@@ -1,4 +1,4 @@
 proxmox:
   host: 192.168.32.32
   user: root
-  ssh_key_path: /Users/rideg/.ssh/proxmox.pub
+  ssh_key_path: /absolute/path/.ssh/proxmox.pub
