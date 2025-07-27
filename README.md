@@ -13,7 +13,6 @@ An automated tool to fetch Proxmox LXC container configurations via SSH and conv
 - Generates Terraform `.tf` files for LXC containers using Jinja2 templates  
 - Generates Ansible inventory and playbook files for container management  
 - Easily extendable to support other platforms  
-- Includes tests for core components to ensure stability  
 
 ---
 
